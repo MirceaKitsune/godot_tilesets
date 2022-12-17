@@ -1,0 +1,66 @@
+{
+	"test": {
+		"settings": {
+			"name": "Test",
+			"description": "Simple level for testing purposes.",
+			"grid": { "h": 4, "v": 4 },
+			"size": { "min_x": 8, "min_y": 4, "min_z": 8, "max_x": 16, "max_y": 8, "max_z": 16 }
+		},
+		"tilesets": [
+			{
+				"scenes": [ "default/scenes/test/test" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 0, "y": 0, "z": -1, "name": "side" },
+					{ "x": 0, "y": 0, "z": 1, "name": "side" }
+				]
+			},
+			{
+				"scenes": [ "default/scenes/test/test_P" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 0, "y": 0, "z": -1, "name": "road" },
+					{ "x": 0, "y": 0, "z": 1, "name": "side" }
+				]
+			},
+			{
+				"scenes": [ "default/scenes/test/test_I" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 0, "y": 0, "z": -1, "name": "road" },
+					{ "x": 0, "y": 0, "z": 1, "name": "road" }
+				]
+			},
+			{
+				"scenes": [ "default/scenes/test/test_C" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "road" },
+					{ "x": 1, "y": 0, "z": 0, "name": "side" },
+					{ "x": 0, "y": 0, "z": -1, "name": "road" },
+					{ "x": 0, "y": 0, "z": 1, "name": "side" }
+				]
+			},
+			{
+				"scenes": [ "default/scenes/test/test_T" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "road" },
+					{ "x": 1, "y": 0, "z": 0, "name": "road" },
+					{ "x": 0, "y": 0, "z": -1, "name": "road" },
+					{ "x": 0, "y": 0, "z": 1, "name": "side" }
+				]
+			},
+			{
+				"scenes": [ "default/scenes/test/test_X" ],
+				"connections": [
+					{ "x": -1, "y": 0, "z": 0, "name": "road" },
+					{ "x": 1, "y": 0, "z": 0, "name": "road" },
+					{ "x": 0, "y": 0, "z": -1, "name": "road" },
+					{ "x": 0, "y": 0, "z": 1, "name": "road" }
+				]
+			}
+		]
+	}
+}
